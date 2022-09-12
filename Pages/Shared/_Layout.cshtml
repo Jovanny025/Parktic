@@ -1,33 +1,87 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - parktic.App</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/bootstrap.css" />
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Parktic.App</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Parktic.App</font>
+                    </font>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Navegación de palanca">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Inicio</a>
+                            <a class="nav-link text-white" asp-area="" asp-page="/Index">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Registro">Registro</a>
+                            <a class="nav-link text-white" asp-area="" asp-page="/Registro">Registro</a>
                         </li>
-                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Sesion">Iniio sesion</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Sesion">Inicio sesion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">inhabilitada</font>
+                                </font>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">inhabiltada</font>
+                                </font>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Acción</font>
+                                    </font>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Otra acción</font>
+                                    </font>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">algo mas aqui</font>
+                                    </font>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Enlace separado</font>
+                                    </font>
+                                </a>
+                            </div>
                         </li>
                     </ul>
+
+
+                    <form class="d-flex">
+                        <input class="form-control me-sm-2" type="text" placeholder="Búsqueda">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Búsqueda</font>
+                            </font>
+                        </button>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -39,9 +93,25 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - parktic.App - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+
+  <footer class="bg-primary text-center text-white">
+  <div class="container">
+				<div class="row justify-content-center">
+				
+				<div class="row mt-5">
+					<div class="col-md-12 text-center">
+						<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-ios-heart" aria-hidden="true"></i> by.Parktic.App  <a href="https://Parktic.com" target="_blank">Parktic.com</a>
+					  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+					</div>
+				</div>
+			</div>
+</footer>
+  
+</div>
+<!-- End of .container -->
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -50,4 +120,5 @@
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>
