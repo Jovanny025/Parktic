@@ -38,3 +38,4 @@ C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\ref\parktic.App.dll
 C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\parktic.App.pdb
 C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\parktic.App.genruntimeconfig.cache
 C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\parktic.App.csproj.CopyComplete
+C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\Razor\Pages\Sesion.cshtml.g.cs
