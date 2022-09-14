@@ -43,3 +43,4 @@ C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\Razor\Pages\vehiculos.csht
 C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\Razor\Pages\Carros.cshtml.g.cs
 C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\Razor\Pages\Motos.cshtml.g.cs
 C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\Razor\Pages\Camiones.cshtml.g.cs
+C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\Razor\Pages\Tarifas.cshtml.g.cs
