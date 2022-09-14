@@ -39,3 +39,7 @@ C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\parktic.App.pdb
 C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\parktic.App.genruntimeconfig.cache
 C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\parktic.App.csproj.CopyComplete
 C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\Razor\Pages\Sesion.cshtml.g.cs
+C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\Razor\Pages\vehiculos.cshtml.g.cs
+C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\Razor\Pages\Carros.cshtml.g.cs
+C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\Razor\Pages\Motos.cshtml.g.cs
+C:\Users\Jovanny\Parktic\parktic.App\obj\Debug\net5.0\Razor\Pages\Camiones.cshtml.g.cs

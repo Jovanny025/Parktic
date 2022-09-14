@@ -33,47 +33,34 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-area="" asp-page="/Sesion">Inicio sesion</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">inhabilitada</font>
-                                </font>
-                            </a>
-                        </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link text-white dropdown-toggle" data-bs-toggle="dropdown" href="Vehiculos"
+                                role="button" aria-haspopup="true" aria-expanded="false">
                                 <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">inhabiltada</font>
+                                    <font style="vertical-align:asp-area=" asp-area="" asp-page=">Vehiculos</font>
                                 </font>
                             </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">Acción</font>
-                                    </font>
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">Otra acción</font>
-                                    </font>
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">algo mas aqui</font>
-                                    </font>
-                                </a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">Enlace separado</font>
-                                    </font>
-                                </a>
-                            </div>
+                            <div class=" dropdown-menu">
+                                        <a class="dropdown-item text-white " href="Carros">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;" asp-area="" asp-page="/Carros">
+                                                    Carros</font>
+                                            </font>
+                                        </a>
+                                        <a class="dropdown-item text-white" href="Motos">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;" asp-area="" asp-page="/Motoa">
+                                                    Motos</font>
+                                            </font>
+                                        </a>
+                                        <a class="dropdown-item text-white" href="Camiones">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;"asp-area="" asp-page="/Camiones">Camiones</font>
+                                            </font>
+                                        </a>
+
                         </li>
                     </ul>
-
-
                     <form class="d-flex">
                         <input class="form-control me-sm-2" type="text" placeholder="Búsqueda">
                         <button class="btn btn-secondary my-2 my-sm-0" type="submit">
@@ -91,31 +78,31 @@
             @RenderBody()
         </main>
     </div>
-<br>
-<br>
-<br>
-<br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 
-            <footer class="bg-primary text-center text-white">
-                   <div class="container my-5"></div>
-                    <div class="row justify-content-center">
-                        <div class="row mt-5">
-                            <div class="col-md-12 text-center">
-                                <p class="copyright">
-                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                    Copyright &copy;
-                                    <script>document.write(new Date().getFullYear());</script> All rights reserved |
-                                    This template is made with <i class="ion-ios-heart" aria-hidden="true"></i>
-                                    by.Parktic.App <a href="https://Parktic.com" target="_blank">Parktic.com</a>
-                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-            </footer>
+    <footer class="bg-primary text-center text-white">
+        <div class="container px-4 px-lg-5"></div>
+        <div class="row justify-content-center">
+            <div class="row mt-5">
+                <div class="col-md-12 text-center">
+                    <p class="copyright">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved |
+                        This template is made with <i class="ion-ios-heart" aria-hidden="true"></i>
+                        by.Parktic.App <a href="https://Parktic.com" target="_blank">Parktic.com</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-      
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
